@@ -1,0 +1,110 @@
+/* Universal */
+
+button{
+    border-radius: 10px;
+    font-size: medium;
+}
+
+/* Nav */
+nav{
+    position:sticky;
+    top: 0;
+    z-index: 10;
+    
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(236, 246, 246);
+    border-radius: 50px;
+}
+
+.nav-logo{
+    margin-left: 40px;
+}
+
+.home-nav{
+    margin-right: 40px;
+}
+
+.nav-links,li {
+    list-style-type: none;
+    display: inline;
+    margin: 30px;
+    font-size: larger;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(237, 166, 59);
+}
+
+a:active{
+    text-decoration-color: coral;
+}
+
+a:visited{
+    text-decoration: underline;
+    color: coral;
+}
+
+/* Section 1 Home */
+
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name-text {
+    background-color: rgb(216, 216, 216);
+}
+
+.about-text{
+    font-size: larger;
+    padding-bottom: 300px;;
+}
+
+/* Section 2 About */
+
+.about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-container img{
+    border-radius: 10%;
+}
+
+/* Section 3 Portfolio Container */
+
+.portfolio-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+    background-color: rgb(216, 216, 216);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.card{
+    width: calc(33.33% - 20px);  /* 3 cards per row */
+    background: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10%;
+    box-sizing: border-box;
+}
+ 
+.card img{
+    border-radius: 22%;
+}
